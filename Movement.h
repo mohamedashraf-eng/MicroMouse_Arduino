@@ -17,8 +17,9 @@
 void L293d_INIT(void);
 void MOVE_FORWARD(uint8_t);
 void MOVE_BACKWARD(uint8_t);
-void MOVE_LEFT(uint8_t);
-void MOVE_RIGHT(uint8_t);
+void MOVE_LEFT(uint8_t, uint8_t);
+void MOVE_RIGHT(uint8_t, uint8_t);
+void U_TURN(uint8_t, uint8_t);
 
 /****************************************
  *          Global Variables            *
